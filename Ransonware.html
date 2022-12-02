@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pentesting Project (Full Remote Control)</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- Fonts-->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
+		<!-- Vendors-->
+		<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
+		<!-- App & fonts-->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
+		<link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css"><!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<div class="page-wrap" id="root">
+			
+			<!-- header -->
+			<header class="header header--fixed">
+				<div class="header__inner">
+					<div class="header__logo"><a href="index.html"><img src="assets/img/works/nameLogo.png" alt="" style="height: 33px; padding-left: 20px;margin: 0;"/></a></div>
+					<div class="navbar-toggle" id="fs-button">
+						<div class="navbar-icon"><span></span></div>
+					</div>
+				</div>
+				
+				<!-- fullscreenmenu__module -->
+				<div class="fullscreenmenu__module" trigger="#fs-button">
+					
+					<!-- overlay-menu -->
+					<nav class="overlay-menu">
+						
+						<!--  -->
+						<ul class="wil-menu-list">
+							<li><a href="index.html">Home</a>
+							</li>
+							<li><a href="about.html">About Me</a>
+							</li>
+							<li><a href="work.html">My Projects</a>
+							</li>
+					
+						</ul><!--  -->
+						
+					</nav><!-- End / overlay-menu -->
+					
+				</div><!-- End / fullscreenmenu__module -->
+				
+			</header><!-- End / header -->
+			
+			<!-- Content-->
+			<div class="wil-content">
+				
+				<!-- Section -->
+				<section class="awe-section">
+					<div class="container">
+						
+						<!-- page-title -->
+						<div class="page-title pb-40">
+							<h2 class="page-title__title">Ransonware</h2>
+							<p class="page-title__text">Malicious Script - Encryption of files</p>
+							<div class="page-title__divider"></div>
+						</div><!-- End / page-title -->
+						
+					</div>
+				</section>
+				<!-- End / Section -->
+				
+				
+				<!-- Section -->
+				<section class="awe-section bg-gray">
+					<div class="container">
+						
+						<!--  -->
+						<div>
+							<div class="work-detail__entry">
+								<p style="font-size: 18px;">
+                                    I have always been curious to understand technically how a ransonware attack works.
+                                    <br><br>
+                                    Once the script is executed, all folders and subfolders are scrolled through and the files are encrypted.
+                                    <br><br>
+                                    In this example I used just for testing the directory called "test" with some subfolders containing other files. You can do exactly the same for example on the local disk computer C:\. 
+                                    <br><br>
+                            
+								<p style="font-size: 18px;">For this project I used:
+									<br><br>
+									- Python <br>
+									- Microsoft PowerShell<br>
+									- Command Prompt<br></p>
+									<p></p>
+                                    <br>
+                                    Full code source on my GitHub:
+									<a href="https://github.com/OlegLeo/Ransonware_Atack_Simulation/blob/main/enc_test.py">https://github.com/OlegLeo/Ransonware_Atack_Simulation/blob/main/enc_test.py</a>
+                                    <br><br> These kinds of projects only serve to simulate and understand the cyber attacks that happen in the real world, for educational purposes only!
+								<div class="work-img"><img style="width: 950px;" src="assets/img/works/ransonware/1.gif" alt=""></div>
+								<br>
+								<p style="font-size: 18px;">This directory contains some files of various types that are most commonly used by the average Windows user.</p>
+								<br>
+								<div class="work-img"><img style="width: 950px;" src="assets/img/works/ransonware/2.gif" alt=""></div>
+								<br>
+								<p style="font-size: 18px;">What we are doing here, we simply start the python script from the command line. At the top appears the generated key for encrypting the files which is used to decrypt the files. All the subfolders within the directory are scrolled through and all the files I defined in the code (e.g. .png, .mp3, .mp3, .txt , etc) are encrypted. It is possible to add as many file types as we want. And of course, you can't miss that classic pop-up warning that the files have been encrypted. I just did it for fun.</p>
+								<br>
+								<div class="work-img"><img style="width: 950px;" src="assets/img/works/ransonware/3.gif" alt=""></div>
+								<br>
+								<p style="font-size: 18px;">Finally we can see that all files have been successfully encrypted and cannot be accessed or read by the user. It is only possible to have them operational if they are decrypted.</p>
+								<p style="font-size: 18px;">As a reminder, all the code is on my github, commented out and easy to understand.</p>
+								<br>
+								<div class="work-img"><img style="width: 950px;" src="assets/img/works/ransonware/cmd.png" alt=""></div>
+								<br>
+								<p style="font-size: 18px;">I also leave the image of the script output.</p>
+									
+								
+							</div>
+							
+						
+						<div class="awe-text-center mt-50">
+							<a class="md-btn md-btn--outline-primary" href="https://github.com/OlegLeo?tab=repositories" target="_blank">More Projects
+							</a>
+						</div>
+					</div>
+				</section>
+				<!-- End / Section -->
+				
+			</div>
+			<!-- End / Content-->
+			
+			<!-- footer -->
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-6 ">
+						</div>
+						<div class="col-md-6 col-lg-6 ">
+							<div class="footer__social">
+								<!-- social-icon -->
+								<a class="social-icon" href="https://github.com/OlegLeo" target="_blank"><i class="social-icon__icon fa fa-github"></i>
+								</a><!-- End / social-icon -->
+								
+								
+								<!-- social-icon -->
+								<a class="social-icon" href="https://www.linkedin.com/in/oleg-leonidov-8956b015b/" target="_blank"><i class="social-icon__icon fa fa-linkedin"></i>
+								</a><!-- End / social-icon -->
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- End / footer -->
+			
+		</div>
+		<!-- Vendors-->
+		<script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+		<script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
+		<script type="text/javascript" src="assets/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
+		<script type="text/javascript" src="assets/vendors/swiper/swiper.jquery.js"></script>
+		<script type="text/javascript" src="assets/vendors/menu/menu.js"></script>
+		<script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
+		<!-- App-->
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
